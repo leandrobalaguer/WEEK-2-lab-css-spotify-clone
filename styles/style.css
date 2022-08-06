@@ -69,15 +69,12 @@ h2.underline{
 	border-bottom: 4px solid white;
     margin-bottom: 40px;
 	display: inline;
-	padding: 40px 0 7px;
+	padding: 40px 0 10px;
 }
 
 .black{ 
 	color: #1A1A1A;
     padding: 40px 0 7px;
-    /* text-decoration: underline; */
-    /* color: #00B172; */
-    /* text-underline-position: under; */
     border-bottom: 4px solid #00B172;
     margin-bottom: 40px;
 }
@@ -122,6 +119,8 @@ p{
 	background-color: #00B172;
 	display: flex;
 	justify-content:space-between;
+	padding: 80px;
+    margin: 0 22px;
 }
 
 .small{
@@ -147,3 +146,34 @@ h4{
 	padding-bottom: 26px;
 }
 
+
+.final{
+	margin-top: 64px;
+}
+.final h3{
+    line-height: 2.6em;
+}
+
+.kanya{
+	width: 51%;
+}
+.img-final{
+	display: flex;
+    justify-content: flex-end;
+
+}
+
+.logo-final{
+	position: absolute;
+    left: 43%;
+    width: 9%;
+    margin-top: 16%;
+    display: block;
+}
+
+nav{
+
+	position: fixed;
+    background-color: white;
+    width: 100vw;
+}
