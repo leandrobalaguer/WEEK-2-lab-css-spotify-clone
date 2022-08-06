@@ -48,7 +48,8 @@ header > img{
     width: 100%;
     text-align: center;
 }
-div {
+
+.s1{
 	margin: 0 25%;
 	height: 800px;
 	display: flex;
@@ -73,6 +74,12 @@ h2{
 
 .black{ 
 	color: #1A1A1A;
+    padding: 40px 0 7px;
+    /* text-decoration: underline; */
+    /* color: #00B172; */
+    /* text-underline-position: under; */
+    border-bottom: 4px solid #00B172;
+    margin-bottom: 40px;
 }
 
 
@@ -105,13 +112,36 @@ p{
 }
 
 .section2{
-	
+    height: 650px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .section3{
 	background-color: #00B172;
 }
 .small{
-	width: 20px;
-	height: 20px;
+	width: 33%;
 }
+
+#features{
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+	margin: 0 auto;
+}
+
+.box{
+	text-align: center;
+}
+.box img{
+	padding-bottom: 40px;
+}
+
+.box h3,
+h4{
+	padding-bottom: 26px;
+}
+
+div 
