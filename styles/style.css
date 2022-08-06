@@ -4,14 +4,8 @@ body, h1, h2, h3, h4, .v1 .v2{
 	padding: 0;
 	margin: 0;
 	
-}/*
-Colors:
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
 header{
 	display: flex;
 	flex-flow: row wrap;
@@ -19,13 +13,12 @@ header{
 	align-items: center;
 	height: 60px;
 	margin: 12px 38px;
-
 }
 
 header > img{
 	height: 80%;
-
 }
+
 .menu{
 	 display: flex;
 	 flex-flow: row wrap;
@@ -34,9 +27,9 @@ header > img{
 	 margin: 0;
 	 padding: 0;
 }
+
 .menu > li {
 	padding-left: 32px;
-
 }
 
 .section1{
@@ -56,15 +49,15 @@ header > img{
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-
-     /*center*/
 }
+
 h1{
 	color: white;
 	font-weight: 700;
 	font-size: 4em;
 	/*font-size: 64px;*/
 }
+
 h2{ 
 	color: white;
 	font-weight: 700;
@@ -81,7 +74,6 @@ h2{
     border-bottom: 4px solid #00B172;
     margin-bottom: 40px;
 }
-
 
 h3{
 	color: white;
@@ -105,6 +97,7 @@ h4{
 	font-size: 1.25em;
 	/*font-size: 20px;*/
 }
+
 p{
 	color: white;
 	font-weight: 400;
@@ -121,6 +114,7 @@ p{
 .section3{
 	background-color: #00B172;
 }
+
 .small{
 	width: 33%;
 }
@@ -143,5 +137,3 @@ p{
 h4{
 	padding-bottom: 26px;
 }
-
-div 
